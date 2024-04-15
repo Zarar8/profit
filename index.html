@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profit Distribution Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Profit Distribution Calculator</h1>
+  <form id="investment-form">
+    <label for="total-investment">Total Investment Amount (?):</label>
+    <input type="number" id="total-investment" name="total-investment" required><br>
+    <label for="your-investment">Your Investment Amount (?):</label>
+    <input type="number" id="your-investment" name="your-investment" required><br>
+    <label for="friend-investment">Friend's Investment Amount (?):</label>
+    <input type="number" id="friend-investment" name="friend-investment" required><br>
+    <label for="total-current">Total Current Amount (?):</label>
+    <input type="number" id="total-current" name="total-current" required><br>
+    <button type="submit">Calculate</button>
+  </form>
+  <div id="results"></div>
+  
+  <script src="profit_calculator.js"></script>
+</body>
+</html>
